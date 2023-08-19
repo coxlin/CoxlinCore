@@ -1,4 +1,7 @@
-﻿using System;
+﻿/**********************************************************                                                                                
+CoxlinCore - Copyright (c) 2023 Lindsay Cox / MIT License                                                                                                         
+**********************************************************/
+using System;
 
 namespace CoxlinCore
 {
