@@ -1,14 +1,10 @@
-﻿/**********************************************************                                                                                
-CoxlinCore - Copyright (c) 2023 Lindsay Cox / MIT License                                                                                                         
-**********************************************************/
+﻿using UnityEngine;
 
-using UnityEngine;
-
-namespace CoxlinCore.ObjectPool
+namespace CoxlinCore
 {
     public abstract class PooledObject : MonoBehaviour
     {
-        public bool IsActive;
+        public bool IsActive { private set; get; }
         public virtual void OnAcquire()
         {
             IsActive = true;

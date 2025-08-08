@@ -1,10 +1,6 @@
-﻿/**********************************************************                                                                                
-CoxlinCore - Copyright (c) 2023 Lindsay Cox / MIT License                                                                                                         
-**********************************************************/
-
-namespace CoxlinCore
+﻿namespace CoxlinCore
 {
-    public static class MathUtils
+    public class MathsUtils
     {
         public static float Normalize(float value, float max)
         {
