@@ -1,4 +1,3 @@
 # CoxlinCore
-Open source C# helper library I use on my Indie games
+C# helper library for Unity
 
-If you use it it would be great to have some attribution, although not required
